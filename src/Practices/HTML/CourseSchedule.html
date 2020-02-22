@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Course Schedule</title>
+        <style type="text/css">
+            img{
+                width: 40%;
+                height: auto;
+            }
+            video{
+                width: 40%;
+                height: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <table border="2" width="600" height="300" bgcolor="#3cb371">
+            <caption><b>Course Schedule Table</b></caption>
+            <tr bgcolor="white" align="center">
+                <th colspan="3"></th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+            <tr bgcolor="white" align="center">
+                <th colspan="2" rowspan="2">Morning</th>
+                <td width="30">1</td>
+                <td>literature</td>
+                <td>math</td>
+                <td>english</td>
+                <td>music</td>
+                <td>PE</td>
+            </tr>
+            <tr bgcolor="white" align="center">
+                <td>2</td>
+                <td>math</td>
+                <td>math</td>
+                <td>physics</td>
+                <td>chemistry</td>
+                <td>biology</td>
+            </tr>
+            <tr bgcolor="white" align="center">
+                <td colspan="8" rowspan="2">Lunch breack from 12-2pm</td>
+<!--                <td colspan="8">Lunch breack from 12-2pm</td>-->
+<!--                <td colspan="8">Lunch breack from 12-2pm</td>-->
+            </tr>
+            <tr bgcolor="white" align="center"></tr>
+            <tr bgcolor="white" align="center">
+                <th colspan="2" rowspan="2">Afternoon</th>
+<!--                <td></td>-->
+<!--                <td></td>-->
+                <td>1</td>
+                <td>PE</td>
+                <td>literature</td>
+                <td>history</td>
+                <td>politics</td>
+                <td>chemistry</td>
+            </tr>
+            <tr bgcolor="white" align="center">
+<!--                <td></td>-->
+<!--                <td></td>-->
+                <td>2</td>
+                <td>music</td>
+                <td>literature</td>
+                <td>math</td>
+                <td>art</td>
+                <td>literature</td>
+            </tr>
+        </table>
+        <img src="logo.jpeg" alt="error"><br>
+<!--        <video src="https://labfile.oss.aliyuncs.com/codehour/codehour.mp4" controls="controls"> C++ game</video><br>-->
+<!--        <audio controls>-->
+<!--            <source src="https://labfile.oss.aliyuncs.com/courses/1236/平凡之路.mp3" type="audio/mp3">平凡之路-->
+<!--        </audio>-->
+<!--        <iframe src="https://www.bing.com" width="1000" height="400" frameborder="0" marginwidth="1000" marginheight="50" scrolling="yes" name="bing"></iframe>-->
+        <form>
+            <fieldset>
+                <legend>This is the title</legend>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label><br>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label><br>
+                <label for="place"> Where do you want to go?</label>
+                <input id="place" name="place" required value="e.g. China" minlength="2" maxlength="10"><br>
+                <label for="email"> Email Address: </label>
+                <input type="email" id="email" name="email" multiple>
+                <label for="password"> Password: </label>
+                <input type="password" id="password" name="password">
+                <input type="reset" value="Reset">
+                <button type="reset"><b>Re</b>set</button>
+            </fieldset>
+            <label for="myColor"> What's your favourite color?</label>
+            <input type="text" name="myColor" id="myColor" list="mySuggestion">
+            <datalist id="mySuggestion">
+                <option>black</option>
+                <option>blue</option>
+                <option>green</option>
+                <option>red</option>
+                <option>pink</option>
+                <option>yellow</option>
+            </datalist>
+            <select>
+                <option> option 1</option>
+                <option> option 2</option>
+                <option> option 3</option>
+            </select>
+        </form>
+    </body>
+</html>

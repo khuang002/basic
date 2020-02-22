@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <form>
+        <fieldset>
+            <legend>Challenge</legend>
+            <label for="name"> Name: </label>
+            <input id="name" name="name" required value="John" maxlength="10"><br>
+            <label for="email"> Email: </label>
+            <input type="email" id="email" name="email"><br>
+            <label for="tel"> Tel: </label>
+            <input type="tel" id="tel" name="tel"><br>
+            <label for="password"> Password: </label>
+            <input type="password" id="password" name="password"><br>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label><br>
+            <label for="province">Province/City</label>
+            <select id="province">
+                <option>Beijing</option>
+                <option>Shanghai</option>
+                <option selected="selected">Guangdong</option>
+                <option>Shangdong</option>
+            </select>
+            <label for="city">City/District</label>
+            <select id="city">
+                <optgroup label="beijing">
+                    <option>Dongcheng</option>
+                    <option>Xicheng</option>
+                    <option>Chaoyang</option>
+                    <option>Haiding</option>
+                </optgroup>
+                <optgroup label="Shanghai">
+                    <option>Huangpu</option>
+                    <option>Xuhui</option>
+                    <option>Jing'an</option>
+                    <option>Changning</option>
+                </optgroup>
+                <optgroup label="Guangdong">
+                    <option>Guangzhou</option>
+                    <option>Shenzhen</option>
+                    <option selected="selected">Jieyang</option>
+                    <option>Shantou</option>
+                </optgroup>
+                <optgroup label="Shangdong">
+                <option>Qingdao</option>
+                <option>Jinan</option>
+                <option>Yantai</option>
+                <option>Dezhou</option>
+                </optgroup>
+            </select><br>
+            <input type="checkbox" id="eat">
+            <label for="eat">Eat</label>
+            <input type="checkbox" id="sleep">
+            <label for="sleep">Sleep</label>
+            <input type="checkbox" id="play">
+            <label for="play">Play</label><br>
+            <textarea cols="150" rows="10"></textarea><br><br>
+            <label for="color">What's your favourite color?</label>
+            <input type="text" id="color" list="mySuggestion">
+            <datalist id="mySuggestion">
+                <option>red</option>
+                <option>black</option>
+                <option>white</option>
+                <option>yellow</option>
+            </datalist><br>
+            <input type="file"><br>
+            <input type="submit"><br>
+            <input type="reset"><br>
+        </fieldset>
+    </form>
+</html>

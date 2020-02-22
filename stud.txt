@@ -1,0 +1,3 @@
+ID    Name    English    math    literature    ave 
+1    Mike    100    90    80    90.0
+2    Peter    80      78    98      85.0
